@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li{
+    transition:  all .3s linear;
+}
+
+nav ul li:hover{
+    color:#292929;
+    text-decoration: underline;
+}
